@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>falsea3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <style>
         body {
-            margin: 0;
+            margin: 40px 100px;
             padding: 0;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
-
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
         a {
             display: block;
             padding: 20px;
             text-decoration: none;
-            color: #fff;
-            background-color: rgb(168, 168, 168);
+            color: #000000;
+            background-color: transparent;
+            border: 1px solid #cccccc;
             text-align: center;
+            font-size: 24px;
+        }
+        a:hover {
+            background-color: #000000;
+            color: #ffffff;
         }
     </style>
 </head>
 <body>
-    <a href="/rep/kinobox">kinobox</a>
+    <h1>Projects</h1>
+    <section>
+        <a href="/rep/newkbox">Kinobox</a>
+    </section>
+    
 </body>
 </html>
